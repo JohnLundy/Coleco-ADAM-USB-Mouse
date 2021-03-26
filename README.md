@@ -65,7 +65,7 @@ It is recommended to use a joystick controller Y cable splitter to allow the use
 
 - The center mouse button will toggle on/off an increased delay to simulate holding the joystick down in any specific direction for games that require this. It is also useful for creating straight lines in paint programs and scrolling lists.
 
-##### This picture is show in the 12 o'clock position
+##### This picture is shown in the 12 o'clock position
 
 ![12oclockposition](https://github.com/JohnLundy/Coleco-ADAM-USB-Mouse/raw/main/docs/12oclockposition.jpg)
 
