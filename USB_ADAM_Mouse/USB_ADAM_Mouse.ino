@@ -26,6 +26,7 @@
 //===========           to power header. Verify 5V pad is bridged for VBUS power.                ==============
 //===========                                                                                    ==============
 //===========                        Initial release v1.00 (3/26/2021)                           ==============
+//===========                                 V1.01 (3/31/2021)                                  ==============
 //=============================================================================================================
 
 //==================================[        Arduino Uno Pin Connections     ]=================================
@@ -36,11 +37,11 @@ const byte downpin = 5;            // (D5) DOWN output pin
 const byte leftpin = 6;            // (D6) LEFT output pin
 const byte rightpin = 7;           // (D7) RIGHT output pin
 const byte precpin = 8;            // (D8) Precision mode input button pin
-const byte ledpin = 12;            // (D12 LED output pin
+const byte ledpin = A1;            // (A2) LED output pin - Using analog line as output from lack of digital pins
 const int  senspin = A0;           // (A0) Analog input pin for mouse sensitivity adjust (trimmer pot)
 
 //==================================[       Varibles and Configurations       ]================================
-const byte Version[3] = {1,0,0};   // Version number v.1.00
+const byte Version[3] = {1,0,1};   // Version number v.1.01
 int mouse_sensitivity;             // USB mouse sensitivity setting fine tuned by senspin analog 10k ohm trimmer potentiometer on pin A0
                                    // Range is 3 - 17 for best performance with a wide range of games - clockwise turn of trimmer potentiometer the higher the value
                                    // Majority of games like 12 (2 o'clock position of potentiometer)
